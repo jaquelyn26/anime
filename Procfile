@@ -1,1 +1,1 @@
-web: gunicorn devmascotass.wsgi --log-file -
+web: gunicorn Devmascotass.wsgi --log-file -
