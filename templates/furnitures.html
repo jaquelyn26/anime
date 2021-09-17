@@ -50,15 +50,14 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                <li class="nav-item active">
-                                <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a> </li>
+                                <a class="nav-link active" href="{%url 'mascot:mascotas'%}">Home<span class="sr-only">(current)</span></a> </li>
                                <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a></li>
+                                <a class="nav-link" href="{%url 'mascot:about'%}">About</a></li>
                                <li class="nav-item">
-                                <a class="nav-link" href="company.html">Company</a></li>
                                <li class="#" href="#">
-                                <a class="nav-link" href="furnitures.html">Furnitures</a></li>
+                                <a class="nav-link" href="{%url 'mascot:furnitures'%}">Furnitures</a></li>
                                <li class="nav-item" href="#">
-                                <a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <a class="nav-link" href="{%url 'mascot:contact'%}">Contact Us</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -87,8 +86,7 @@
   <!-- our furniture section start -->
   <div class="our_furniture_section layout_padding">
     <div class="container">
-      <h1 class="about_taital">Our <span style="background-color: #fee421; color: #fff; padding: 0px 5px;">Funitures</span></h1>
-      <p class="market_text">page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution o</p>
+      <h1 class="about_taital">Mascotas <span style="background-color: #fee421; color: #fff; padding: 0px 5px;"></span></h1>
     </div>
   </div>
   <div class="our_section_2">
@@ -99,31 +97,19 @@
             <button class="seemore_bt">SEE MORE</button>
           </div>
           <div class="image_right">
-            <div class="image_9"><img src="{%static 'images/img-9.png'%}"></div>
-            <div class="new_text">NEW DESIGN</div>
+            <div class="image_9"><img src="{%static 'images/si.jfif'%}"></div>
+            <div class="new_text"></div>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="image"><img src="{%static 'images/img-4.png'%}"></div>
+        <div class="image"><img src="{%static 'images/vete.jpg'%}"></div>
       </div>
       <div class="col-sm-3">
-        <div class="image"><img src="{%static 'images/img-5.png'%}"></div>
+        <div class="image"><img src="{%static 'images/deko.jpg.crdownload'%}"></div>
       </div>
     </div>
-    <div class="images_section_2">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="image_6"><img src="{%static 'images/img-6.png'%}"></div>
-        </div>
-        <div class="col-sm-4">
-          <div class="image_6"><img src="{%static 'images/img-7.png'%}"></div>
-        </div>
-        <div class="col-sm-4">
-          <div class="image_6"><img src="{%static 'images/img-8.png'%}"></div>
-        </div>
-      </div>
-    </div>
+
   </div>
   <!-- our furniture section end -->
   <!-- footer section start -->
@@ -138,7 +124,6 @@
               <ul >
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About </a></li>
-                <li><a href="company.html">Company</a></li>
                 <li><a href="furnitures.html">Furnitures</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
               </ul>
@@ -153,8 +138,7 @@
            <h2 class="useful_text">Address</h2>
                      <ul class="location">
                 <li><img src="{%static 'images/map-icon.png'%}">Locations</li>
-                
-                <li><img src="{%static 'images/call-icon.png'%}"><a href="company.html">+71 89078493</a></li>
+
                 <li><img src="{%static 'images/email-icon.png'%}"><a href="furnitures.html">demo@gmail.com</a></li>
                 
               </ul>

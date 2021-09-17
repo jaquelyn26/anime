@@ -50,15 +50,15 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                <li class="nav-item active">
-                                <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a> </li>
+                                <a class="nav-link active" href="{%url 'mascot:mascotas'%}">Home<span class="sr-only">(current)</span></a> </li>
                                <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a></li>
+                                <a class="nav-link" href="{%url 'mascot:about'%}">About</a></li>
                                <li class="nav-item">
-                                <a class="nav-link" href="company.html">Company</a></li>
+
                                <li class="#" href="#">
-                                <a class="nav-link" href="furnitures.html">Furnitures</a></li>
+                                <a class="nav-link" href="{%url 'mascot:furnitures'%}">Furnitures</a></li>
                                <li class="nav-item" href="#">
-                                <a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <a class="nav-link" href="{%url 'mascot:contact'%}">Contact Us</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -151,7 +151,7 @@
               <ul >
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About </a></li>
-                <li><a href="company.html">Company</a></li>
+
                 <li><a href="furnitures.html">Furnitures</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
               </ul>
@@ -167,7 +167,8 @@
                      <ul class="location">
                 <li><img src="images/map-icon.png">Locations</li>
                 
-                <li><img src="{%static 'images/call-icon.png'%}"><a href="company.html">+71 89078493</a></li>
+
+
                 <li><img src="{%static 'images/email-icon.png'%}"><a href="furnitures.html">demo@gmail.com</a></li>
                 
               </ul>

@@ -13,5 +13,3 @@ def chormi(request):
 def jaq(request):
     return render(request, 'contact.html')
 
-def samm(request):
-    return render(request, 'company.html')
